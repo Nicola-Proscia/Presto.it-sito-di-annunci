@@ -1,0 +1,23 @@
+
+  .login-btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: var(--sec);
+    padding: 0.938rem;
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 1.563rem;
+    color: #0d0f42;
+    border: 0;
+    border-radius: 0.313rem;
+    margin-bottom: 1.25rem;
+  }
+  
+  .login-btn:focus {
+    outline: 0;
+  }
+  
+  .login-btn:active {
+    transform: scale(0.98);
+  }

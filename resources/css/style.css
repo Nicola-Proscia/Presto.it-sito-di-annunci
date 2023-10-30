@@ -1,0 +1,305 @@
+
+/* ? Setting Generali */
+
+h1{
+    font-family: 'Tilt Neon', sans-serif; 
+}
+
+*{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+:root {
+    --main: #181f1c;
+    --sec: #68C1C4;
+    --accent: #315c2b;
+    --whiteCus: #c5c5c5;
+    --blackCus: #0D0D0D;
+    --sec2: rgb(204, 200, 49);
+    
+}
+
+body {
+    background: var(--main);
+    height: 100vh;
+ 
+}
+
+/*! chiedere */
+.logo {
+    height: 30px;
+}
+
+
+/*? colore testi */
+
+.text-main {
+    color: var(--main);
+}
+
+.text-sec {
+    color: var(--sec);
+}
+
+.text-accent {
+    color: var(--accent);
+}
+
+.text-whiteCus {
+    color: var(--whiteCus);
+}
+
+.text-blackCus {
+    color: var(--blackCus);
+}
+
+.text-whiteCus {
+    color: var(--whiteCus);
+}
+
+.text-sec2{
+    color: var(--sec2);
+}
+
+/*? background colors */
+
+.bg-main {
+    background-color: var(--main);
+}
+
+.bg-sec {
+    background-color: var(--sec);
+}
+
+.bg-accent {
+    background-color: var(--accent);
+}
+
+.bg-whiteCus {
+    background-color: var(--whiteCus);
+}
+
+.bg-blackCus {
+    background-color: var(--blackCus);
+}
+
+.bg-whiteCus {
+    background-color: var(--whiteCus);
+}
+
+/*? border colors */
+
+.border-main {
+    border: solid 2px var(--main);
+}
+
+.border-sec {
+    border: solid 2px var(--sec);
+}
+
+.border-accent {
+    border: solid 2px var(--accent);
+}
+
+.border-whiteCus {
+    border: solid 2px var(--whiteCus);
+}
+
+.border-blackCus {
+    border: solid 2px var(--blackCus);
+}
+
+.border-whiteCus {
+    border: solid 2px var(--whiteCus);
+}
+
+.btn-main {
+    background-color: var(--main);
+}
+
+.btn-accent {
+    background-color: var(--accent);
+}
+
+.btn-sec {
+    background-color: var(--sec);
+}
+
+.btn-whiteCus {
+    background-color: var(--whiteCus);
+}
+
+.btn-blackCus {
+    background-color: var(--blackCus);
+}
+
+.btn-whiteCus {
+    background-color: var(--whiteCus);
+}
+
+/*? setting A */
+
+li a {
+    color: var(--whiteCus);
+    
+    text-decoration: none;
+}
+
+li a:hover {
+    color: var(--main);
+}
+
+li a:active {
+    color: var(--main);
+}
+
+/*! chiedere */
+.text {
+    margin-top: 0.938rem;
+}
+
+/* ? Form */
+
+.form-container {
+    /* font-family: "Poppins", sans-serif; */
+    font-size: 1.125rem;
+    background: #1b1a1a;
+    color: #fff;
+    padding: 5rem 2.5rem;
+    border-radius: 15px;
+    width: min(90%, 400px);
+    box-shadow: 3px 0.25rem 1.25rem rgba(0, 0, 0, 0.904);
+}
+
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 2.75rem;
+    margin-top: -1.875rem;
+    color: #ffff;
+    font-weight: normal;
+    font-size: 2rem;
+}
+
+.form-container a {
+    text-decoration: none;
+    color: var(--sec);
+}
+
+
+.form-control-cus {
+    position: relative;
+    margin: 1.25rem 0 2.5rem;
+    background: transparent;
+    border: none;
+}
+
+.form-control-cus input {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 1.25rem 0;
+    font-size: 1.125rem;
+    color: #fff;
+}
+
+.form-control-cus input:focus {
+    outline: 0;
+    border-bottom-color: var(--sec);
+}
+
+.form-control-cus label {
+    position: absolute;
+    top: 0.938rem;
+    left: 10;
+}
+
+.form-control-cus label span {
+    display: inline-block;
+    font-size: 1.125rem;
+    min-width: 0.313rem;
+    transition: 0.3s cubic-bezier(0.53, 0.246, 0.265, 1.66);
+}
+
+.form-control-cus input:focus + label span,
+.form-control-cus input:valid + label span {
+    color: var(--sec);
+    transform: translateY(-1.875rem);
+}
+
+/* ? carosello */
+
+.imgPreview{
+    width: 300px;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* Sezione numeri */
+
+.section-numeri{
+    min-height: 500px;
+}
+.numberCus{
+    margin-top: 50px;
+    background: #181F1C;
+    background: -moz-linear-gradient(top, #181F1C 0%, #68C1C4 60%, #181F1C 100%);
+    background: -webkit-linear-gradient(top, #181F1C 0%, #68C1C4 60%, #181F1C 100%);
+    background: linear-gradient(to bottom, #181F1C 0%, #68C1C4 60%, #181F1C 100%);
+    border-bottom: 2px solid var(--blackCus);
+    min-height: 50vh;
+    color: var(--blackCus);
+    font-size: 40px;
+    border-radius: 10px;
+}
+
+.spanCus{
+    font-size: 70px;
+    color: white;
+    position: relative;
+    top: 10px; 
+    font-weight: bolder;
+}
+
+#firstSpan, #secondSpan, #thirdSpan{
+    font-size: 100px;
+    color: var(--blackCus)
+}
+
+.h2cus{
+    text-shadow: 15px 20px 10px var(--blackCus);
+    animation-name: h2; 
+    animation-duration: 8s;
+    animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+    font-weight: bold;
+    font-size: 50px;
+}
+
+@keyframes h2 { 
+    from {transform:translateX(-500px);}
+    to {transform:translateX(0px);}
+  }
+
+.textCus{
+    font-size: 25px;
+}
+
+.marginCustom{
+    margin-top: 90px;
+}
+
+.userImg{
+    border-radius: 20%;
+    border-radius: circle;
+    width: 200px;
+    height: 200px;
+}
+
+/*carosello revisore*/
+

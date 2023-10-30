@@ -1,0 +1,7 @@
+@import 'bootstrap';
+@import './style.css';
+@import './footer.css';
+@import './header.css';
+@import './navbar.css';
+@import './login-register.css';
+@import './cardCus.css';

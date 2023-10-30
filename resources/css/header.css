@@ -1,0 +1,68 @@
+
+.titleHeader{
+    color: var(--whiteCus);
+    font-size: 150px;
+    text-shadow: 3px 0.25rem 1.25rem rgba(0, 0, 0, 0.904);
+}
+
+.bg-header{
+    background-image: url("/public/img/header/header.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 850px;
+}
+
+.btnHeader{
+    background-color: var(--sec);
+    color: var(--blackCus);
+    font-size: 28px;
+    transition: 0.4s;
+}
+
+.btnHeader:hover{
+    background-color: var(--blackCus);
+    color: var(--whiteCus);
+}
+
+.headerCus{
+    height: 250px;
+}
+
+@media screen and (max-width:600px) {
+    .headerCus{
+        height: 80px;
+    }
+    .btnHeader{
+        font-size: 20px;
+    }
+    .bg-header{
+        height: 70vh;
+    }
+}
+
+.offset {  
+    box-shadow: 
+    0.3em -0.3em 0.7em 0em var(--sec),
+    inset 0.3em -0.3em 0.3em 0 var(--sec);
+    
+    &:hover,
+    &:focus {
+        box-shadow: 
+        0 0 0 0 var(--sec),
+        inset 6em 3.5em 0 0 var(--sec);
+    }
+}
+.btnHeader {
+    background: none;
+    border: 2px solid;
+    color: white;
+    line-height: 1;
+    margin: 0.5em;
+    padding: 1em 2em;
+    font-weight: 500;
+}
+
+.btnHeader:hover {
+    color: var(--blackCus);
+    font-weight: 500;
+}

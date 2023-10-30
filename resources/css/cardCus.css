@@ -1,0 +1,126 @@
+.priceCard{
+    font-size: 30px;
+}
+
+
+/*? card vista */
+
+.cardCus{
+    height: 80vh;
+    background: #181F1C;
+    background: -moz-linear-gradient(top, #181F1C 0%, #68c1c44a 60%, #181F1C 100%);
+    background: -webkit-linear-gradient(top, #181F1C 0%, #68c1c45e 60%, #181F1C 100%);
+    background: linear-gradient(to bottom, #181F1C 0%, #68c1c428 60%, #181F1C 100%);
+    margin-bottom: auto color var(--whiteCus);
+}
+
+@media (max-width: 554px) {
+    .cardCus{
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.carousel-inner {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 50vh;
+    border: #181f1c 2px solid;
+    border-radius: 10px;
+}
+
+.infoprod{
+    text-align: end;
+    margin-right: 10px;
+}
+
+@media (max-width: 600px) {
+    .carousel-inner {
+        height: 30vh;
+
+    }
+    .cardCus{
+        min-height: 600px;
+        height: 50vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .infoprod{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+.priceCus{
+    font-size: 25px;
+    font-weight: bolder;
+    color: var(--sec2);
+}
+
+
+
+
+
+
+
+/* card tutti gli annunci */
+
+.cardAllAnnouncements{
+    border: solid 1px var(--blackCus);
+    border-radius: 10px;
+    box-shadow: rgb(204, 200, 49) 1px -3px 25px 0px;
+    
+}
+
+
+
+.btnAllAnnouncementHref{
+    font-family: Roboto, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #68C1C4;
+    background-color: #181f1c;
+    padding: 10px 30px;
+    border: solid #68C1C4 2px;
+    box-shadow: rgb() 1px -3px 15px 0px;
+    border-radius: 29px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    }
+    
+    .btnAllAnnouncementHref:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #68C1C4;
+    color: #181f1c;
+    border: solid 2px #181f1c;
+    }
+    
+
+.btnAllAnnouncement{
+    text-decoration: none;
+   
+}
+
+h5{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* ?pulsanti accetta o rifiuta revisione */
+
